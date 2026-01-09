@@ -9,7 +9,7 @@ import Image from "next/image";
 export function Hero() {
   return (
     <section
-      className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-noise"
+      className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-noise border-b-2 border-primary/20"
       data-testid="hero-section"
     >
       <div className="absolute inset-0 overflow-hidden">

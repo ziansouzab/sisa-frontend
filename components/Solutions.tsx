@@ -39,7 +39,7 @@ export function Solution() {
   return (
     <section
       id="solucao"
-      className="py-15 md:py-20 relative bg-card/30"
+      className="py-15 md:py-20 relative bg-card/30 border-b-2 border-primary/20"
       data-testid="solution-section"
     >
       <div className="absolute inset-0 overflow-hidden">
