@@ -1,7 +1,11 @@
-export default function Home(){
+import { Hero } from "@/components/Hero";
+import { Navbar } from "@/components/Navbar";
 
-  return(
-    <h1>Home</h1>
-  )
-
+export default function Home() {
+  return (
+    <>
+      <Navbar />
+      <Hero />
+    </>
+  );
 }
