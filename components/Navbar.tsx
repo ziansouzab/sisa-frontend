@@ -21,7 +21,7 @@ export function Navbar() {
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className="fixed top-0 left-0 right-0 z-50 glass-card p-3"
+      className="fixed top-0 left-0 right-0 z-50 glass-card p-2"
       data-testid="navbar"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -34,7 +34,7 @@ export function Navbar() {
             <Image
               src={"/Logo Sisa.png"}
               alt="SISA Dashboard - Interface do sistema"
-              width={200}
+              width={220}
               height={100}
               data-testid="hero-dashboard-image"
             />
@@ -45,7 +45,7 @@ export function Navbar() {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-sm font-medium text-muted-foreground hover:text-white transition-colors duration-200"
+                className="text-base font-medium text-white/70 hover:text-white transition-colors duration-200"
                 data-testid={`nav-link-${link.label
                   .toLowerCase()
                   .replace(/\s/g, "-")}`}
