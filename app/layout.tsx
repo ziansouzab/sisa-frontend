@@ -14,7 +14,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "SISA",
-  description: "Organize seus atendimentos e gere o arquivo do Receita Saúde em poucos cliques. O sistema que ajuda profissionais da saúde a economizar tempo e garantir conformidade fiscal.",
+  description:
+    "Organize seus atendimentos e gere o arquivo do Receita Saúde em poucos cliques. O sistema que ajuda profissionais da saúde a economizar tempo e garantir conformidade fiscal.",
 };
 
 export default function RootLayout({
@@ -23,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-br">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
